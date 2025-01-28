@@ -1,0 +1,49 @@
+---
+title: "Ocean Race Pretest"
+author: "Ricarda Kling"
+date: "2024-12-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(igraph)
+library(tidygraph)
+library(tidyverse)
+
+```
+
+# Daten einlesen
+
+```{r}
+
+el <- read.csv("https://raw.githubusercontent.com/RicardaKling/Ocean-Race/refs/heads/main/Edgelist_OceanRace.csv", header=T, as.is=T, sep = ",")
+
+nl <- read.csv("https://raw.githubusercontent.com/RicardaKling/Ocean-Race/refs/heads/main/Nodelist_OceanRace.csv", header=T, as.is=T, sep = ",")
+
+```
+
+
+# tidygraph erstellen
+
+```{r}
+
+OceanRace <- tbl_graph(nodes = nl, edges = el, directed = TRUE)
+
+```
+
+# Visualisierung
+
+```{r}
+
+plot (OceanRace,
+      asp=0,
+      layout=layout_with_fr,
+      vertex.size=degree(OceanRace)/6.0,
+      edge.arrow.size=.3,
+      main="Ocean Race 14/15 und 17/18",
+      sub= "Netzwerk aus Teams, Teilnehmern und ihren Nationalitäten")
+
+```
+
