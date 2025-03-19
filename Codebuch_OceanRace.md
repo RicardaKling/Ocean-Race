@@ -36,7 +36,7 @@ skipper = skipper im Team
 
 # NODE-Attribute  
   
-**id** <br>   
+**id** <br>
 Alphanumerisch: Initialen des Seglers (bei Dopplung wurde bei einem der Segler der zweite Buchstabe des Nachnamens ergänzt), als string/characters codiert 
 
 **sailor** <br>
