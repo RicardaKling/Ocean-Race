@@ -76,6 +76,10 @@ ZAF - Südafrika <br>
 1 = männlich <br>
 2 = weiblich <br>
 
+**position** <br>
+1 = mindestens einmal als Skipper teilgenommen <br>
+2 = immer als crew member teilgenommen <br>
+
 **type** <br>
 1 = Segler <br>
 2 = Teams <br>
