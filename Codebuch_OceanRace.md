@@ -80,6 +80,11 @@ ZAF - Südafrika <br>
 1 = mindestens einmal als Skipper teilgenommen <br>
 2 = immer als crew member teilgenommen <br>
 
+**winner** <br>
+1 = winner <br>
+2 = loser <br>
+
+
 **type** <br>
 1 = Segler <br>
 2 = Teams <br>
