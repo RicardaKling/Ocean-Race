@@ -88,4 +88,7 @@ ZAF - Südafrika <br>
 1 = winner <br>
 2 = loser <br>
 
+**homogenity** <br>
+1 = homogen <br>
+2 = heterogen <br>
 ##
