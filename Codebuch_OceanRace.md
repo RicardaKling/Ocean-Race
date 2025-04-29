@@ -1,6 +1,7 @@
-# Datensatz OceanRace #
+# Datensatz Ocean Race #
 Codebuch Stand 2025-01
-erstellt von Team Ocean Race (Ansprechpartnerin Viktoria Reiser vr047@hdm-stuttgart.de)
+erstellt von Team Ocean Race 
+Ansprechpartner: Viktoria Reiser vr047@hdm-stuttgart.de
 
 ## Inhalt
 - Edgelist_OceanRace.csv (Edgelist)
@@ -10,7 +11,8 @@ erstellt von Team Ocean Race (Ansprechpartnerin Viktoria Reiser vr047@hdm-stuttg
 - Zeiterfassung_Projekt.md (Zeitplan)
 
 ## Ursprung und Datenerhebung
-Wir haben einen Datensatz für den Pretest eines Netzwerks von "the Ocean Race" aus den Episoden 2014/15 und 2017/18 erhoben. Die Daten haben wir auf der offiziellen Webseite von Ocean Race, den entsprechenden Wikipedia-Artikeln und einzelnen Webseiten zu den Teams gefunden. 
+Wir haben einen Datensatz für den Pretest eines Netzwerks von "The Ocean Race" aus den Episoden 2014/15 und 2017/18 erhoben. Die Daten haben wir auf der offiziellen Webseite von Ocean
+Race, den entsprechenden Wikipedia-Artikeln und einzelnen Webseiten zu den Teams gefunden. 
 
 Das Netzwerk ist ein *gerichtetes three-mode Netzwerk*, das sich in zwei Arten von Netzwerke gliedern lässt. 
 
@@ -77,8 +79,8 @@ ZAF - Südafrika <br>
 2 = weiblich <br>
 
 **position** <br>
-1 = mindestens einmal als Skipper teilgenommen <br>
-2 = immer als crew member teilgenommen <br>
+1 = als Skipper teilgenommen <br>
+2 = als Crew Member teilgenommen <br>
 
 **type** <br>
 1 = Segler <br>
