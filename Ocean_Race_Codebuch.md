@@ -10,7 +10,7 @@ Ansprechpartner: Viktoria Reiser vr047@hdm-stuttgart.de
 - Codebuch.md (Codierung der Datensätze)
 - Zeiterfassung_Projekt.md (Zeitplan)
 
-## Ursprung
+## Pretest/Ursprung
 Für den Pretest haben wir einen Datensatz der Teilnehmern des Ocean Race aus den Jahreb 2014/15 und 2017/18 erhoben. Die Daten haben wir auf der offiziellen Webseite von Ocean
 Race, den entsprechenden Wikipedia-Artikeln und einzelnen Webseiten zu den Teams gefunden. Hauptzugang war über Teilnehmerlisten.
 
@@ -19,7 +19,6 @@ Das Netzwerk ist ein *gerichtetes three-mode Netzwerk*, das sich in zwei Arten v
 2) Ein Nationalitätennetzwerk *nationality*, das die Verbindung aller Segler zu ihrer Nationalität darstellt.
 
 ## Finale Erhebung 
-
 Auf Basis des Pretest und wissenschaftlicher Lektüre hat sich folgende Forschungsfrage für das Ocean Race Netzwerk ergeben: Was sagt die Netzwerkstruktur der Teams von The Ocean Race (08/09–22/23) über die Zusammenarbeit der Sportler und den Einfluss ihres kulturellen Hintergrunds auf diese aus?
 Vorhandene Daten wurden über offizielle Teilnehmerlisten, Wikipedia Einträge und erweiterte Recherche über die Sozialen Medien und die Presse erhoben.
 
@@ -43,7 +42,7 @@ skipper = Skipper im Team
 Die id besteht aus den Initialien des Seglers (= Anfangsbuchstabe Vorname + Anfangsbuchstabe Nachname). Bei Dopplungen der ids wurde der zweite Buchstabe des Nachnamens des Seglers ergänzt.
 Codierung: alphanumerisch, als string/characters
 
-**sailor** <br>
+**label** <br>
 Dieses Attribut steht für den vollen, ausgeschriebenen Namen des Seglers.
 Codierung: alphanumerisch, als string/characters
 
@@ -77,6 +76,13 @@ UK - Vereinigtes Königreich <br>
 UKR - Ukraine <br>
 US - Vereinigte Staaten von Amerika <br>
 ZAF - Südafrika <br>
+
+**culture** <br>
+Für die vorliegende Netzwerkanalyse wurden Länder (nationality-Attribut) auf Basis von Hofstedes Kulturdimensionen in Kulturquadranten eingeteilt. Voraussetzung sind die Kulturdimensionen "Avoidance of Uncertainty" und "Power Distance".
+1 = low avoidance of uncertainty, low power distance <br>
+2 = low avoidance of uncertainty, high power distance <br>
+3 = high avoidance of uncertainty, low power distance <br>
+4 = high avoidance of uncertainty, high power distance <br>
 
 **sex** <br>
 Mit diesem Attribut wurde das Geschlecht der Segler erhoben. In der Erhebung wurde zwischen männlich, weiblich und divers unterschieden. Allerdings wurden nur Teilnehmer erfasst, die sich als männlich oder weiblich identifizieren, weshalb nur zwischen zwei Geschlechtern unterschieden wird.
