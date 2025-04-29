@@ -1,13 +1,13 @@
-# Zeiterfassung Projekt OceanRace #
+# Zeiterfassung Projekt Ocean Race #
 
-## Zeitplan Datenerhebung
+Teammitglieder: Ricarda Kling (rk103), Viktoria Reiser (vr047), Valerie Seizer (vs128), Sofia Kuhnle (sk399), Lilli Hammer (lh195)
 
-21.-28. Februar: Restliche Datenerhebung der Teams (Jahrgänge 08/09, 11/12, 23) (8 Stunden)
+Arbeitsaufwand pro Teammitglied:
+Hier muss beachtet werden, dass sich das Team in zwei Gruppen geteilt hat. Die einen haben sich um RStudio und den Forschungsbericht gekümmert, die anderen um alles was die Datenerhebung und den edit. Artikel angeht. Da die Schreibphase für edit. noch nicht abgeschlossen ist, fehlt hier noch eine gewisse Stundenzahl.
 
-03.-06. März: Datenbereinigung (5 Stunden)
+    Ricarda Kling (R):
+    Viktoria Reiser (R):
+    Valerie Seizer (edit.):
+    Sofia Kuhnle (edit.):
+    Lilli Hammer (R):
 
-06.-09. März: Fertigstellung tidygraph Objekt (1/2 Stunde)
-
-14.-15. März: Blocktage SNA
-
-##
